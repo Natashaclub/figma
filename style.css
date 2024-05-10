@@ -6,6 +6,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-left: -25px;
 
 }
 .navigator1 {
@@ -17,6 +18,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-bottom: 25px
 }
 main button {
     background: #008EB0;
@@ -32,7 +34,7 @@ main button {
     justify-content: center;
     align-items: center;
     margin-bottom: 75px;
-    gap: 50px;
+    gap: 100px;
     margin-top: 100px;
 }
 main h2 {
@@ -49,19 +51,20 @@ main h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 100px;
 }
 footer  {
-    margin-left: 100px;
+    margin-left: 75px;
 }
 .footer1 {
     font-size: 25px;
 }
-.footer2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-    gap: 15px;
-}
+.main2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 13px;
+     gap: 15px;
+     text-align: center;
 
+ }
