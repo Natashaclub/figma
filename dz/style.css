@@ -1,0 +1,12 @@
+body {
+    background: darkgrey;
+}
+[href^="https://"] {
+    color: maroon;
+}
+body > p {
+    color: fuchsia;
+}
+.holder > p {
+    color: fuchsia;
+}

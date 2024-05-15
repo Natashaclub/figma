@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
-    background-color: mediumaquamarine;
+    background-color: #ECECEC;
+    font-family: "Roboto";
 }
 nav {
     display: flex;
@@ -7,13 +9,13 @@ nav {
     align-items: center;
     gap: 10px;
     margin-left: -25px;
-
+    text-color: white;
 }
 .navigator1 {
     margin-left: 500px;
     gap: 25px;
 }
-.main  {
+.main3  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,10 +23,10 @@ nav {
     margin-bottom: 25px
 }
 main button {
-    background: #008EB0;
+    background: #2196F3;
     color: #fff;
-    border: 6px solid #7922CC;
-    border-radius: 25px;
+    border: 6px hidden;
+    border-radius: 4px;
     padding: 1rem 1.5rem;
     margin-bottom: 1rem;
 
@@ -59,12 +61,12 @@ footer  {
 .footer1 {
     font-size: 25px;
 }
-.main2 {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     font-size: 13px;
-     gap: 15px;
-     text-align: center;
-
- }
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    gap: 15px;
+    text-align: center;
+    background: #2F303A;
+}
