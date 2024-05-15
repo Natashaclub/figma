@@ -13,7 +13,7 @@ nav {
 }
 .navigator1 {
     margin-left: 500px;
-    gap: 25px;
+    gap:25px;
 }
 .main3  {
     display: flex;
@@ -56,17 +56,42 @@ main h3 {
     gap: 100px;
 }
 footer  {
-    margin-left: 75px;
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+    color: #FFFFFF;
+    margin-left: none;
 }
 .footer1 {
     font-size: 25px;
+    color: #FFFFFF;
 }
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1600px;
+    height: 600px;
     font-size: 44px;
     gap: 15px;
     text-align: center;
     background: #2F303A;
+}
+.main3 {
+    color: #FFFFFF;
+}
+.button2 {
+    position: relative;
+    top: 120px;
+    left: -460px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+}
+.main2 {
+    display: flex;
+    padding: 100px 100px 100px 100px;
+}
+footer p {
+    padding: 0px 0px 0px 250px;
 }
