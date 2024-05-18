@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 nav {
     display: flex;
@@ -6,10 +7,21 @@ nav {
     gap: 10px;
     margin-left: -25px;
     text-color: white;
+    font-family: roboto;
+    font-weight: 500;
+}
+.title-nav{
+    font-family: Raleway;
+    font-weight: 700;
+    margin-right: 70px;
+}
+.text-nav{
+    font-size: 14px;
+    margin-left: 25px;
+
 }
 .navigator1 {
     margin-left: 500px;
-    gap:25px;
 }
 .main3  {
     display: flex;
@@ -58,10 +70,6 @@ footer  {
     color: #FFFFFF;
     margin-left: unset;
 }
-.footer1 {
-    font-size: 25px;
-    color: #FFFFFF;
-}
 .main {
     display: flex;
     justify-content: center;
@@ -84,16 +92,13 @@ footer  {
     border-radius: 4px 0px 0px 0px;
     opacity: unset ;
 }
-footer p {
-    padding: 0px 0px 0px 250px;
-}
 .div-text{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
-    text-align: left;!important;
+    text-align: left;
     width: 300px;
     height: 98px;
 }
@@ -130,4 +135,29 @@ footer p {
 .artical-text > p {
     font-size: 14px;
     color: #757575;
+    text-align: left !important;
+}
+.footer-text-title {
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-top: 35px;
+    padding-left: 175px;
+}
+.footer-title{
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+}
+.footer-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-text1{
+    color: #ffffff55;
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-title{
+    width: 231px;
+    height: 81px;
 }
